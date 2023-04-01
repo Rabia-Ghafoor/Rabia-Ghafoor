@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Rabia-Ghafoor
-- 👀 I’m interested in Software Engineering, Product Management, and Venture Capital.
+- 👀 I’m interested in Software Engineering, Clean Technonolgies, Product Management, and Venture Capital.
 - 🌱 I’m currently learning Python
 - 📫 You can reach me @ rghafoor[at]iu(dot)edu
 <!---
