@@ -1,5 +1,5 @@
 - 👋 A Student at Indiana University Bloomington, majoring in Computer Science. Interested in Software Engineering, Clean Technologies, Product, and Venture Capital. Please feel free to connect and/or reach out to discuss potential opportunities ,or have awesome conversations.
-- 📫  Email: rghafoor(at)iu[dot]edu
+- 📫  Email: 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=rabia-ghafoor)](https://github.com/ryo-ma/github-profile-trophy)
 <!---
