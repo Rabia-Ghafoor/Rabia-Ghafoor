@@ -1,5 +1,7 @@
--  A Student at Indiana University Bloomington, majoring in Computer Science. Interested in Software Engineering (Backend and Full-stack), Product, and Venture Capital. Have made side-projects related to, APIs, and LLMs. Currently making side-projects related to  Low-level stuff like Radare2, RISC-V and Reverse Engineering.
--   Feel free to connect and/or reach out via email to discuss potential opportunities, or have awesome conversations.
+- With a strong technical background in Computer Science. I'm interested in Software Engineering Full Time Early Career Roles. With a focus on Full stack and Back-end development.
+- Have made side-projects related to, APIs, and LLMs. Currently making side-projects related to  Low-level stuff like Radare2, RISC-V and Reverse Engineering.
+- Additionally, deeply interested in Product Management, and Venture Capital. At Indiana University, I serve, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. 
+- Feel free to connect and/or reach out via email to discuss potential opportunities, or have awesome conversations.
 - 📫  Email: rabia.a.ghafoor(at)gmail[dot]com
 
 
