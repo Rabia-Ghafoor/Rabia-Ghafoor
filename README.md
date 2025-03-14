@@ -1,6 +1,6 @@
 - With a strong technical background in Computer Science. I'm interested in Software Engineering Full Time Early Career Roles. With a focus on Full stack and Back-end development.
 - Have made side-projects related to, APIs, and LLMs. Currently making side-projects related to  Low-level stuff like Radare2, RISC-V and Reverse Engineering.
-- Additionally, deeply interested in Product Management, and Venture Capital. At Indiana University, I serve, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. 
+- Additionally, deeply interested in Product Management, and Venture Capital. At Indiana University, I serve, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. Previously I also served as the President of the Luddy Hackathon 3.0.
 - Feel free to connect and/or reach out via email to discuss potential opportunities, or have awesome conversations.
 - 📫  Email: rabia.a.ghafoor(at)gmail[dot]com
 
