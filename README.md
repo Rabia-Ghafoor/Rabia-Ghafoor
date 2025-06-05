@@ -1,7 +1,8 @@
-- With a strong technical background in Computer Science. I'm interested in Software Engineering Full Time Early Career Roles. With a focus on Full stack and Back-end development.
-- Have made side-projects related to, APIs, and LLMs. Currently making side-projects related to  Low-level stuff like Radare2, RISC-V and Reverse Engineering.
-- Additionally, deeply interested in Product Management, and Venture Capital. At Indiana University, I serve, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. Previously I also served as the President of the Luddy Hackathon 3.0, the largest Hackathon in the history of Luddy School with over 72 team projects, and 315 hacker registrations.
-- Feel free to connect and/or reach out via email to discuss potential opportunities, or have awesome conversations.
+With a strong technical background in Computer Science and Software Engineering Experience at GlobalNOC. I'm interested in Software Engineering Full Time Early Career Roles, focusing on Full stack and/or Back-end development. Deeply interested in Product Management, and Venture Capital in the long-term. At Indiana University, I help run, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. 
+
+Previously, I served as the president of the Luddy Hackathon Third Edition, the largest hackathon in history of IU Luddy, since its inception in the year 2000, and IU Bloomington, in terms of sponsors, problems cases and overall reach. 
+
+In my spare time, I write about tech, finance, and venture ecosystems of India and America on my Substack newsletter. Happy to have meaningful conversations related to tech, product, vc, and/or any potential interests that we may share. Feel free to reach out at rabia.a.ghafoor(at)gmail[dot]com.
 - 📫  Email: rabia.a.ghafoor(at)gmail[dot]com
 
 
