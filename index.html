@@ -1,139 +1,166 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FC3WYB1HF"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FC3WYB1HF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        gtag('config', 'G-3FC3WYB1HF');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-    <script src="https://kit.fontawesome.com/2ef482d24d.js" crossorigin="anonymous"></script>
-    <title> Rabia Ghafoor</title>
-    <link rel="icon" href="name.png">
+    gtag('config', 'G-3FC3WYB1HF');
+  </script>
 
-    <style>
-        .btn-box {
-            display: inline-block;
-            border: 2px solid black; /* Adjust the border color and size as needed */
-            padding: 10px; /* Adjust the padding as needed */
-            margin-top: 10px; /* Adjust the margin as needed */
-            text-align: center;
-            text-decoration: none;
-        }
-    
-        .btn-box .btn {
-            background-color: #f8f9fa; /* Adjust the background color as needed */
-            color: black; /* Adjust the text color as needed */
-            border: none; /* Remove the default button border */
-            cursor: pointer;
-        }
-    </style>
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/mystyle.css" />
+  <script src="https://kit.fontawesome.com/2ef482d24d.js" crossorigin="anonymous"></script>
+
+  <title>Rabia Ghafoor</title>
+  <link rel="icon" href="name.png" />
+
+  <style>
+    .btn-box {
+      display: inline-block;
+      border: 2px solid black;
+      padding: 10px;
+      margin-top: 10px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .btn-box .btn {
+      background-color: #f8f9fa;
+      color: black;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Make sure the headshot image is responsive */
+    #about-me img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Sidebar links spacing */
+    #sidebar a {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* Add some spacing below the main title */
+    h1.my-lg-5 {
+      margin-bottom: 2rem;
+    }
+
+    /* Fix small margin on the big heading on mobile */
+    @media (max-width: 576px) {
+      h1.my-lg-5 a {
+        margin-right: 0 !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
+    <h1 class="my-lg-5" style="font-size: 50px;">
+      <a href="/" class="text-decoration-none" style="color: black; margin-right: 350px;">Rabia Ghafoor</a>
+    </h1>
 
-        <h1 class="my-lg-5" style="font-size: 50px;">
-            <a href="/" class="text-decoration-none" style="color: black; margin-right: 350px;">Rabia
-                Ghafoor </a>
-        </h1>
+    <div class="row">
+      <nav id="sidebar" class="col-12 col-sm-3 col-md-2" style="font-size: 19px;">
+        <a href="resume.html" class="text-decoration-none text-dark"><i class="fas fa-file"></i> SWE Resume</a>
+        <hr class="solid" />
+        <a href="pm.html" class="text-decoration-none text-dark"><i class="fas fa-file"></i> PM Resume</a>
+        <hr class="solid" />
+        <a href="https://www.linkedin.com/in/Rabiaaghafoor/" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none text-dark"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <hr class="solid" />
+        <a href="https://twitter.com/Rabiaaghafoor" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none text-dark"><i class="fab fa-twitter-square"></i> Twitter</a>
+        <hr class="solid" />
+        <a href="readinglist.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark"><i
+            class="fas fa-book"></i> Reading List</a>
+        <hr class="solid" />
+        <a href="https://github.com/rabia-ghafoor" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none text-dark"><i class="fab fa-github"></i> Github</a>
+        <hr class="solid" />
+        <a href="mailto:rabia.a.ghafoor@gmail.com" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none text-dark"><i class="fas fa-envelope"></i> Email</a>
+        <hr class="solid" />
+        <a href="https://rabiaghafoor.substack.com/" target="_blank" rel="noopener noreferrer"
+          class="text-decoration-none text-dark"><i class="fas fa-newspaper"></i> Newsletter</a>
+        <hr class="solid" />
+      </nav>
 
+      <section id="about-me" class="col-12 col-sm-9 col-md-10" style="font-size: 20px;">
         <div class="row">
-            <div id="sidebar" class="col-2" style="font-size: 19px;">
-                <a href="resume.html" class="text-decoration-none text-dark"><i class="fas fa-file"></i>
-                    SWE Resume</a>
-                <hr class="solid">
+          <div class="col-12 col-md-6">
+            <h3>About me</h3>
+            <p>I'm a student at IU Bloomington, majoring in Computer Science. Deeply interested in Software Engineering,
+              Product Management, and Venture Capital. At Indiana University, I serve INgineering at IU, a student-led
+              organization that fosters innovation and technical acumen among engineering students, as the President.
+              Most recently, I served the Third Edition of the Luddy Hackathon as the President.</p>
 
-              
-                    <a href="pm.html" class="text-decoration-none text-dark"><i class="fas fa-file"></i>
-                        PM Resume</a>
-                    <hr class="solid">
+            <p>In my spare time, I like to write about venture, finance, and tech ecosystems of India and America on my
+              Substack newsletter. Happy to have awesome conversations related to tech, social impact, clean technologies,
+              or any potential interests that we may share.</p>
 
-             
-
-                <a href="https://www.linkedin.com/in/Rabiaaghafoor/" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none text-dark">
-                    <i class="fab fa-linkedin" color="#0000FF"></i> LinkedIn</a>
-
-                <hr class="solid">
-                <a href="https://twitter.com/Rabiaaghafoor" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none text-dark"><i class="fab fa-twitter-square"></i>
-                    Twitter</a>
-                <hr class="solid">
-                <a href="readinglist.html" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none text-dark"><i class=" fas fa-book"></i>
-                    My Reading List</a>
-                <hr class="solid">
-                <a href="https://github.com/rabia-ghafoor" target="_blank" rel="noopener noreferrer"
-                    class="text-decoration-none text-dark"><i class="fab fa-github"></i> Github</a>
-                <hr class="solid">
-                <a href="mailto:rabia.a.ghafoor@gmail.com" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark"><i class=" fas fa fa-envelope"></i> Email</a>
-                <hr class="solid">
-                <a href="https://rabiaghafoor.substack.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark"><i class="fas fa-newspaper"></i> Newsletter</a>
-                <hr class="solid">
-            </div>
-
-            <div id="about me" class="col-10" style="font-size: 20px">
-                <div class="row">
-                    <div class="col-6">
-                        <h3>About me</h3>
-                        I'm a student at IU Bloomington, majoring in Computer Science. Deeply interested in Software
-                        Engineering, Product Management, and Venture Capital. At Indiana University, I serve, INgineering
-                        at IU, a student led organization that fosters innovation, and technical acumen among
-                        engineering students, as the President. Most Recently, I served the Third Edition of the Luddy Hackathon as the President.
-                        <br>
-                        In my spare time, I like to write about venture, finance, and tech ecosystems of India and
-                        America on my Substack newsletter. Happy to have awesome conversations related to tech, social
-                        impact, clean technologies, or any potential interests that we may share.
-                        <br><br>
-
-                        I love <i> wordle, street art</i>, and <i> exploring coffee shops. </i>
-                        <br><br>
-                    </div>
-                    <div class="col-6">
-                        <img src="headshot.jpeg" alt="Rabia_Ghafoor" width="100%">
-                    </div>
-                </div>
-                <hr class="solid">
-            </div>
+            <p>I love <i>wordle, street art</i>, and <i>exploring coffee shops.</i></p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="headshot.jpeg" alt="Rabia Ghafoor" />
+          </div>
         </div>
-
-        <h1><b> Rabia's Writing Samples </h1></b>
-        <p><h3> Glimpse of Academic Papers written by me </h3></p>
-        <div class="container">
-            <div class="row">
-                <div class="six columns">
-                    <p><h3><b> Paper 1:</b><span class="tga"> Textual and  Visual Analysis of <i> "I May Destroy You" </i></h3> </span>
-                           <h5> Employed quantiative and qualitative frameworks to compose a 3000 word essay analyzes the language and visual scenes from a TV show.</h5></p>
-                    <a href="https://docs.google.com/document/d/1pupVkXHrkcxVvypUT9G1CJeaq9F7HVH15WmhKlrPh1g/edit?usp=sharing" class="btn-box">
-                        <button class="btn" onclick> View Paper 1 </button></a>
-                </div>
-                <div class="six columns">
-                    <p><h3><b>Paper 2: </b> <span class="tga"> Intensive Writing Paper </h3> </span>
-                          <h5> This is a 5000 word paper on Interconnection between Modern Law and Order with Ancient Eastern Civilisation. Wrote it in an intensive writing class in my freshman year of college.</h5></p>
-                    <a href="https://docs.google.com/document/d/15vO7LNfhowrVeOHk9kxua2lt7sFObRzr4yrcuWP64p4/edit?usp=sharing" class="btn-box">
-                        <button class="btn" onclick> View Paper 2 </button></a>
-                </div>
-            </div>
-            <hr>
-        </div>
-</body>
-
-<footer class="page-footer py-5">
-    <div class="footer-copyright text-center">
-        <b> Authencity Statement: </b> I hereby certify that the content included in this portfolio/website is my own original work, and accurate to my knowledge. Work included which was conducted as part of a team or other group is indicated and attributed as such the other team members are named and a true description of my role in the project is included. <br>
-        <b>Last updated: </b> November 30, 2024
+        <hr class="solid" />
+      </section>
     </div>
-</footer>
+
+    <h1><b>Rabia's Writing Samples</b></h1>
+
+    <h3>Some Academic Papers By Me</h3>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-4">
+          <h3><b>Paper 1:</b> <span class="tga">Textual and Visual Analysis of <i>"I May Destroy You"</i></span></h3>
+          <h5>Employed quantitative and qualitative frameworks to compose a 3000-word essay analyzing the language
+            and visual scenes from a TV show.</h5>
+          <a href="https://docs.google.com/document/d/1pupVkXHrkcxVvypUT9G1CJeaq9F7HVH15WmhKlrPh1g/edit?usp=sharing"
+            class="btn-box">
+            <button class="btn" type="button">View Paper 1</button>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+          <h3><b>Paper 2:</b> <span class="tga">Intensive Writing Paper</span></h3>
+          <h5>This is a 5000-word paper on the interconnection between modern law and order with ancient Eastern
+            civilisation. Wrote it in an intensive writing class in my freshman year of college.</h5>
+          <a href="https://docs.google.com/document/d/15vO7LNfhowrVeOHk9kxua2lt7sFObRzr4yrcuWP64p4/edit?usp=sharing"
+            class="btn-box">
+            <button class="btn" type="button">View Paper 2</button>
+          </a>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </div>
+
+  <footer class="page-footer py-5">
+    <div class="footer-copyright text-center px-3">
+    
+      <br />
+      <b>Last updated:</b> November 30, 2024
+    </div>
+  </footer>
+</body>
 
 </html>
