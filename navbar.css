@@ -62,3 +62,30 @@ ul.topnav {
 body {
   background-color: #f3e7ec; /* Set the background color */
 }
+
+.mode-toggle {
+    margin-left: 10px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.dark-mode .back-button,
+.dark-mode .mode-toggle {
+    background-color: #333;
+    color: white;
+    border-color: #666;
+}

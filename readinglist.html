@@ -1,49 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>  
-    <head> 
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FC3WYB1HF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3FC3WYB1HF');
+    </script>
 
-                <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FC3WYB1HF"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-3FC3WYB1HF');
-        </script>    
-         <h2> Life Changing Books  </h2> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-        <link rel = "stylesheet" href="readinglist.css">
-         
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading List</title>
 
-    <body> 
-        
-        <ul> 
-        The hard thing about hard things
-        <br>
-    
-        Think and Grow Rich By Napoleon Hill
-        <br>
-        The Structure and Interpretation of Computer Programs 
-        <br>
-        Range: Why Generalists Triumph in a Specialized World
-        <br>
-        Lean Startup
-        <br>
-        Crushing it!
-        <br>
-        Chanakya Neeti
-        <br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="readinglist.css">
 
+    <style>
+        body {
+            padding: 40px;
+            background-color: #f5f5f5;
+            color: black;
+            font-family: Arial, sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .top-buttons {
+            margin-bottom: 30px;
+        }
+
+        .back-button,
+        .mode-toggle {
+            padding: 12px 22px;
+            border-radius: 10px;
+            border: 1px solid #999;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .back-button i,
+        .mode-toggle i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .back-button:hover,
+        .mode-toggle:hover {
+            transform: scale(1.03);
+            background-color: #f1f1f1;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 17px;
+        }
+
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        .dark-mode .container {
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+        .dark-mode .back-button,
+        .dark-mode .mode-toggle {
+            background-color: #2b2b2b;
+            color: white;
+            border-color: #666;
+        }
+
+        .dark-mode h2 {
+            border-bottom-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="top-buttons">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                Back to Home
+            </a>
+
+            <button class="mode-toggle" onclick="toggleMode()">
+                <i class="fas fa-moon"></i>
+                Toggle Dark / Light Mode
+            </button>
+        </div>
+
+        <h1>📚 Rabia's Reading List</h1>
+
+        <h2>Life Changing Books</h2>
+
+        <ul>
+            <li>The Hard Thing About Hard Things</li>
+            <li>Think and Grow Rich by Napoleon Hill</li>
+            <li>The Structure and Interpretation of Computer Programs</li>
+            <li>Range: Why Generalists Triumph in a Specialized World</li>
+            <li>Lean Startup</li>
+            <li>Crushing It!</li>
+            <li>Chanakya Neeti</li>
         </ul>
-        
-        <h2> Other Books that I have Read </h2>
 
-            Atomic Habits
+        <h2>Other Books That I Have Read</h2>
 
-       
+        <ul>
+            <li>Atomic Habits</li>
+        </ul>
 
-    </body>
+    </div>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+
+            const icon = document.querySelector(".mode-toggle i");
+
+            if (document.body.classList.contains("dark-mode")) {
+                icon.classList.remove("fa-moon");
+                icon.classList.add("fa-sun");
+            } else {
+                icon.classList.remove("fa-sun");
+                icon.classList.add("fa-moon");
+            }
+        }
+    </script>
+</body>
 
 </html>
