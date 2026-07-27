@@ -1,6 +1,8 @@
-With a strong technical background in Computer Science and Software Engineering Experience via Intership and Fellowships. I'm interested in Software Engineering Full Time Early Career Roles, focusing on Full stack and/or Back-end development. Interested at the intersection of software engineering, low-latency systems design, and the tech–finance ecosystems, with experience building full-stack products, optimizing performance. At Indiana University, I help run, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President. 
+Software engineer focused on full-stack software engineering , infrastructure, and developer tooling, with interests in ultra low-latency systems and performance optimisation. I bring around 2 YOE in Software Engineering, and proven track record of leadership.
 
-Previously, I served as the president of the Luddy Hackathon Third Edition, the largest hackathon in history of IU Luddy, since its inception in the year 2000, and IU Bloomington, in terms of sponsors, problems cases and overall reach. 
+To elaborate on my leadership, previously, at Indiana University, I helped run, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President, for 3 years. 
+
+Additionally, also served as the President of the Luddy Hackathon Third Edition, the largest hackathon in history of IU Luddy, since its inception in the year 2000, and IU Bloomington, in terms of sponsors, problems cases and overall reach. 
 
 In my spare time, I write about tech, finance, and venture ecosystems of India and America on my Substack newsletter. Happy to have meaningful conversations related to tech, product, vc, and/or any potential interests that we may share. Feel free to reach out at rabia.a.ghafoor(at)gmail[dot]com.
 - 📫  Email: rabia.a.ghafoor(at)gmail[dot]com
