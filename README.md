@@ -1,4 +1,4 @@
-I'm an Open Source Software (OSS) Contributor at Layer5, and Software engineer focused on full-stack software engineering , infrastructure, and developer tooling, with interests in ultra low-latency systems and performance optimisation. I bring around 2 YOE in Software Engineering, and proven track record of leadership.
+I'm an Open Source Software (OSS) Software engineer at Layer5 focused on full-stack software engineering , infrastructure, and developer tooling, with interests in ultra low-latency systems and performance optimisation. I bring around 2 YOE in Software Engineering, and proven track record of leadership.
 
 To elaborate on my leadership, previously, at Indiana University, I helped run, INgineering at IU, a student led organization that fosters innovation and technical acumen among engineering students, as the President, for 3 years. 
 
